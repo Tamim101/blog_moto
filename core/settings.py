@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-sg+(f(^c0ulrld%(usa)(zn$d(-x&13i0@%s)_#!7vg1m7$2xs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["motoblog.herokuapp.com"]
+ALLOWED_HOSTS = ['motoblo.herokuapp.com']
 
 
 # Application definition
@@ -48,7 +48,8 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
+
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
